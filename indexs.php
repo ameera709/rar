@@ -355,7 +355,7 @@ include('admin/newscheck.php');
   		</div>
 <div style=" height: 600px; opacity: 1;  width:100% ;position:relative; right: 8%; bottom: 800px;">
 
-<a href="makeup.php "> <img  alt="Red%20Eye%20Shadow_edited.jpg" data-type="image" itemprop="image" src="https://static.wixstatic.com/media/686834949fce4cc8a325f9c5d9b32081.jpg/v1/fill/w_545,h_554,al_c,q_80,usm_0.66_1.00_0.01/Scatered%20Makeup.webp" style="width: 363px; height: 369px; object-fit: cover;"></a>
+<a href="makeup.php "> <img  alt="Red%20Eye%20Shadow_edited.jpg" data-type="image" itemprop="image" src="https://static.wixstatic.com/media/nsplsh_466f65494f677a7443586f~mv2.jpg" style="width: 363px; height: 369px; object-fit: cover;"></a>
 <video id="comp-khzuvq71_video" class="_3owv4" role="presentation" crossorigin="anonymous" playsinline="" preload="auto" muted="" loop="" autoplay="" width="369" height="369" src="https://video.wixstatic.com/video/f671b2_95a49faa26e04baf86d03bacf53d26c7/480p/mp4/file.mp4" style="position:relative; right: 0px; bottom: -180px; width: 363px; height: 369px; opacity: 1;"></video>
 <a href="jewelry.php "> <img alt="AEnB2UoKuQfn9uA-S_R2tzW-k1Kluk2aPOFiiSuKO" data-type="image" itemprop="image" src="https://i.ibb.co/brpd8qm/782ddc2b-e127-4407-8a6f-05e82c0346f0.jpg "style="width: 363px; height: 369px; object-fit: cover;"></a>
 <a href="hairstyle.php "> <img alt="AEnB2UoKuQfn9uA-S_R2tkzW-k1Kluk2aPOFiiSuKO" data-type="image" itemprop="image" src="https://static.wixstatic.com/media/f671b2_c1e36112d7f34796b751c2d452ab48c1~mv2.jpg/v1/crop/x_514,y_0,w_1973,h_2000/fill/w_546,h_554,al_c,q_80,usm_0.66_1.00_0.01/Hair%2520Stylist_edited.webp"style="width: 363px; height: 369px; object-fit: cover;"></a>
@@ -371,3 +371,15 @@ include("footer.php");
 
 
 ?>
+
+
+
+<!-- sourses
+
+1- the images uploaded by {pintrest & wix & instagram }
+2- The codes have been written and modified by {w3schools.com & gitHub & stackoverflow }
+3-The login and Register page was created and linked to the database based on {https://www.youtube.com/watch?v=3vauM7axnRs&ab_channel=1BestCsharpblog}
+4- the favorite page created and modified by {https://www.linkedin.com/learning/ajax-with-php-add-dynamic-content-to-websites/create-a-favorite-button}
+5- the navbar  and footer file created by {jQuery && JavaScript }
+
+ -->
