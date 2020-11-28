@@ -143,6 +143,10 @@ include('admin/newscheck.php');
               echo '  <a class="w3-container" href="https://instagram.com/js.hairstylist7?igshid=15trsolr3gy29  " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
               echo '<br><u><a class="st" href="https://instagram.com/js.hairstylist7?igshid=15trsolr3gy29" target="_blank">' . $value["header"].' </a></u>';
            }
+	      else if (  $id =="14") {
+              echo '  <a class="w3-container" href="https://www.instagram.com/maramalaayed/?igshid=fxmj1h1oy89e " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
+              echo '<br><u><a class="st" href="https://www.instagram.com/maramalaayed/?igshid=fxmj1h1oy89e" target="_blank">' . $value["header"].' </a></u>';
+           }
 
             echo "<p style='margin-bottom:10px;margin-top:10px;'><b>" . $value["note"]."</b></p>";
        echo "<a ' href='?action=favorite&id=$id'"."<i><img src=admin/upload/herti.png height='3%' width='3%'></i></a><br>";
