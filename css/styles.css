@@ -1,0 +1,46 @@
+.header
+{
+	background-color:black;
+
+	
+}
+
+.rgt-bottom span
+{
+	color: white;
+	
+}
+.rgt-bottom a
+{
+	color: white;
+	}
+
+ul.megamenu.skyblue
+{
+	background-color: darkgrey;
+	
+}
+.skyblue li a{font-size:22px;}
+.foot-top{background:darkgrey;}
+.skyblue li a.color1:hover{background:#00405d; 
+color: white;}
+.skyblue li a.color2:hover{background:#00405d; 
+color: white;}
+.skyblue li a.color9:hover{background:#00405d; 
+color: white;}
+.skyblue li a.color4:hover{background:#00405d; 
+color: white;}
+.skyblue li a.color5:hover{background:#00405d; 
+color: white;}
+.skyblue li a.color6:hover{background:#00405d; 
+color: white;}
+
+.skyblue li a.color7:hover{background:#00405d; 
+color: white;}
+.skyblue li a.color8:hover{background:#00405d; 
+color: white;}
+.megamenu>li>a{float: right;}
+.header{background-image: url(33.jpg)}
+.error{
+			background-color:red;
+		}
