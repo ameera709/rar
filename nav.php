@@ -109,6 +109,7 @@ ob_start();
 			if( $stat==1 and $utype==0 )
 			{
 
+	echo'<li><a style="color:gray;" href="addnews.php">Add Product</a></li> ';
 
 	$sql="SELECT id,image FROM users WHERE name='$name'";
    $q=$con->prepare($sql);
