@@ -49,7 +49,7 @@ include('admin/newscheck.php');
 .head-hair,.header{
   padding:300px;
   text-align: center;
-  background-image:url('https://static.wixstatic.com/media/fd8c2cb050bc4099bffdbee00c2dac7a.jpg') ;
+  background-image:url('https://static.wixstatic.com/media/nsplsh_4a49495377507778504438~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_1874,h_1232,al_c,q_90,usm_0.66_1.00_0.01/Image%20by%20Celia%20Michon.webp') ;
   background-repeat: no-repeat;
   background-size: 100%;
   font-family:raleway;
