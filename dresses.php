@@ -49,7 +49,7 @@ include('admin/newscheck.php');
 .head-hair,.header{
   padding:300px;
   text-align: center;
-  background-image:url('admin/upload/dresseshead.png') ;
+  background-image:url('https://static.wixstatic.com/media/fd8c2cb050bc4099bffdbee00c2dac7a.jpg') ;
   background-repeat: no-repeat;
   background-size: 100%;
   font-family:raleway;
@@ -97,74 +97,10 @@ include('admin/newscheck.php');
 
          echo ' <div class="wel">';
 
-         $id=$value['id'];
-          if (  $id =="39") {
-           echo '  <a class="w3-container" href="https://www.instagram.com/anno_boutique/?igshid=9dpjj7vs5dds " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-           echo '<br><u><a class="st" href=" https://www.instagram.com/anno_boutique/?igshid=9dpjj7vs5dds " target="_blank">' . $value["header"].' </a></u>';
-        }
-        else if (  $id =="40") {
-          echo '  <a class="w3-container" href="https://www.instagram.com/moeshour/?igshid=1ad1d1fd19btv " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-          echo '<br><u><a class="st" href=" https://www.instagram.com/moeshour/?igshid=1ad1d1fd19btv " target="_blank">' . $value["header"].' </a></u>';
-       }else if (  $id =="41") {
-         echo '  <a class="w3-container" href="https://www.beamkw.com/ " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-         echo '<br><u><a class="st" href=" https://www.beamkw.com/ " target="_blank">' . $value["header"].' </a></u>';
-      }else if (  $id =="42") {
-        echo '  <a class="w3-container" href="https://www.instagram.com/monirahalomarofficial/?igshid=12z2jbromekd " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-        echo '<br><u><a class="st" href=" https://www.instagram.com/monirahalomarofficial/?igshid=12z2jbromekd " target="_blank">' . $value["header"].' </a></u>';
-     }else if (  $id =="43") {
-       echo '  <a class="w3-container" href=" https://www.instagram.com/7details/?igshid=3fm9ku8w0gl3" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-       echo '<br><u><a class="st" href="  https://www.instagram.com/7details/?igshid=3fm9ku8w0gl3" target="_blank">' . $value["header"].' </a></u>';
-    }else if (  $id =="44") {
-      echo '  <a class="w3-container" href=" https://ameliebaku.com/" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-      echo '<br><u><a class="st" href="  https://ameliebaku.com/" target="_blank">' . $value["header"].' </a></u>';
-   }else if (  $id =="45") {
-     echo '  <a class="w3-container" href=" https://www.instagram.com/n.o.u.f.alsubaie/?igshid=1gy4nh57w5ne1" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-     echo '<br><u><a class="st" href=" https://www.instagram.com/n.o.u.f.alsubaie/?igshid=1gy4nh57w5ne1 " target="_blank">' . $value["header"].' </a></u>';
-  }else if (  $id =="46") {
-    echo '  <a class="w3-container" href="https://www.instagram.com/the_wardrobe_bh/?igshid=8f7zqfl6pfdx " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-    echo '<br><u><a class="st" href="  https://www.instagram.com/the_wardrobe_bh/?igshid=8f7zqfl6pfdx" target="_blank">' . $value["header"].' </a></u>';
- }else if (  $id =="47") {
-   echo '  <a class="w3-container" href=" https://online.flippingbook.com/view/215778/" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-   echo '<br><u><a class="st" href="  https://online.flippingbook.com/view/215778/" target="_blank">' . $value["header"].' </a></u>';
-}else if (  $id =="48") {
-  echo '  <a class="w3-container" href=" https://www.jolnaar.com/" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href="  https://www.jolnaar.com/" target="_blank">' . $value["header"].' </a></u>';
-}else if (  $id =="49") {
-  echo '  <a class="w3-container" href=" http://www.fouzboutique.com/" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href="  http://www.fouzboutique.com/" target="_blank">' . $value["header"].' </a></u>';
-}else if (  $id =="50") {
-  echo '  <a class="w3-container" href=" https://asbarbyg.com/" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href=" https://asbarbyg.com/ " target="_blank">' . $value["header"].' </a></u>';
-}else if (  $id =="51") {
-  echo '  <a class="w3-container" href="https://mnboutiquekw.com/ " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href="https://mnboutiquekw.com/  " target="_blank">' . $value["header"].' </a></u>';
-}else if (  $id =="52") {
-  echo '  <a class="w3-container" href=" https://www.instagram.com/modish.kw/" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href="https://www.instagram.com/modish.kw/  " target="_blank">' . $value["header"].' </a></u>';
-}else if (  $id =="53") {
-  echo '  <a class="w3-container" href=" https://instagram.com/darlana_fashion?igshid=o9x8squwvmhl" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href="  https://instagram.com/darlana_fashion?igshid=o9x8squwvmhl" target="_blank">' . $value["header"].' </a></u>';
-}else if (  $id =="54") {
-  echo '  <a class="w3-container" href="https://razanalazzouni.com/collections/clothing-dresses " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href=" https://razanalazzouni.com/collections/clothing-dresses " target="_blank">' . $value["header"].' </a></u>';
-}else if (  $id =="55") {
-  echo '  <a class="w3-container" href="https://www.peek-kw.com/ " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href="  https://www.peek-kw.com/" target="_blank">' . $value["header"].' </a></u>';
-}else if (  $id =="56") {
-  echo '  <a class="w3-container" href=" https://instagram.com/ea_designs?igshid=vjk5miwlptnm" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href="  https://instagram.com/ea_designs?igshid=vjk5miwlptnm" target="_blank">' . $value["header"].' </a></u>';
-}else if (  $id =="57") {
-  echo '  <a class="w3-container" href=" https://instagram.com/almaha_de?igshid=10vmz68m9l0rs" target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href=" https://instagram.com/almaha_de?igshid=10vmz68m9l0rs " target="_blank">' . $value["header"].' </a></u>';
-}
-else if (  $id =="58") {
-  echo '  <a class="w3-container" href="https://www.instagram.com/beunique.kw/?igshid=rc37lj139t3m " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
-  echo '<br><u><a class="st" href="  https://www.instagram.com/beunique.kw/?igshid=rc37lj139t3m" target="_blank">' . $value["header"].' </a></u>';
-}
-
-
-
-     echo "<p style='margin-bottom:10px;margin-top:10px;'><b>" . $value["note"]."</b></p>";
+    $id=$value['id'];
+         echo '  <a class="w3-container" href="https://www.instagram.com/zaina_hairstylist/?igshid=1dw3nkhvy8o68 " target="_blank"><img src=admin/upload/'.$value["image"] .'  class="img-sqare" height="25%" width="25%" object-fit: cover;"></a>';
+         echo '<br><u><a class="st" href="https://www.instagram.com/zaina_hairstylist/?igshid=1dw3nkhvy8o68" target="_blank">' . $value["header"].' </a></u>';
+	     echo "<p style='margin-bottom:10px;margin-top:10px;'><b>" . $value["note"]."</b></p>";
 		 echo "<a ' href='?action=favorite&id=$id'"."<i><img src=admin/upload/herti.png height='3%' width='3%'></i></a><br>";
 		 echo' <div class"col-md-4"> ';
          echo '   </div>
