@@ -15,7 +15,7 @@ include('admin/newscheck.php');
 	 }
     .row.content {height: 450px}
 
-    .sidenav {
+    .sidenav{
       padding-top: 20px;
       background-color: #f1f1f1;
       height: 100%;
